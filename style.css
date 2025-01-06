@@ -1,0 +1,62 @@
+body{
+    background-color: #fffaf0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 119, 20);
+    font-size: small;
+    line-height: 1,6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: #01a31c;
+    color: #ffffff;
+    text-align: center;
+}
+header h1{
+    margin: 2%;
+}
+.recipes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.recipe-card{
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    overflow: hidden;
+}
+.recipe-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.recipe-card h2{
+    margin: 12px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: auto;
+}
+span{
+    font-size: small;
+    color: rgb(34, 161, 235);
+    font-style: italic;
+}
+.img-conteiner {
+    float: right;
+    padding-right: 1%;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 119, 20);
+}
